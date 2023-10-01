@@ -69,48 +69,86 @@
 
 // Задача 6
 
-function filterArray(numbers, value) {
-  const filteredNumbers = [];
-  // Change code below this line
-
-  numbers.forEach((numbers, index) => {
-    
-    number>value ? filteredNumbers.push(numbers[i]) : break 
-
-  });
-  
-  
-
-
-
-
-
 // function filterArray(numbers, value) {
-//   // const filteredNumbers = [];
-// this.forEach((function (number, index){
-//   filteredNumbers.push(numbers[i]));
+//   const filteredNumbers = [];
+//   // Change code below this line
 
+//   numbers.forEach((number, i) => {
+    
+//     if (numbers[i] > value) {
+//           filteredNumbers.push(numbers[i]);
+//         }
 
-
-
-
-
+//   });
   
-  // Change code below this line
-
-  // for (let i = 0; i < numbers.length; i += 1) {
-  //   if (numbers[i] > value) {
-  //     filteredNumbers.push(numbers[i]);
-  //   }
-  // }
-
-  // Change code above this line
-  console.log(filteredNumbers) ;
-}
+//   console.log(filteredNumbers) ;
+// }
 
 
-filterArray([1, 2, 3, 4, 5], 3)
-filterArray([1, 2, 3, 4, 5], 4) 
- filterArray([1, 2, 3, 4, 5], 5) 
- filterArray([12, 24, 8, 41, 76], 38) 
- filterArray([12, 24, 8, 41, 76], 20) 
+
+// filterArray([1, 2, 3, 4, 5], 3)
+// filterArray([1, 2, 3, 4, 5], 4) 
+//  filterArray([1, 2, 3, 4, 5], 5) 
+//  filterArray([12, 24, 8, 41, 76], 38) 
+//  filterArray([12, 24, 8, 41, 76], 20) 
+
+// TASK 7
+
+// function getCommonElements(firstArray, secondArray) {
+//   const commonElements = [];
+
+//   // for (let i = 0; i < firstArray.length; i += 1) {
+    
+//   // }
+//   firstArray.forEach((Array, i) => {
+//     if (secondArray.includes(firstArray[i])) {
+//       commonElements.push(firstArray[i]);
+//     }
+//   });
+//   console.log (commonElements)  ;
+
+// }
+
+// getCommonElements([1, 2, 3], [2, 4]); //повертає [2]
+// getCommonElements([1, 2, 3], [2, 1, 17, 19]); //повертає [1, 2]
+// getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]); // повертає [12, 27, 3]
+// getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]); //повертає [10, 30, 40]
+// getCommonElements([1, 2, 3], [10, 20, 30]); //повертає []
+
+//     TASK 10
+
+// const calculateTotalPrice = (orderedItems) => {
+//   let totalPrice = 0;
+
+//   orderedItems.forEach((item) => {
+//     totalPrice += item;
+//   });
+
+// console.log(totalPrice) ;
+// }
+
+// calculateTotalPrice([12, 85, 37, 4]) //повертає 138
+// calculateTotalPrice([164, 48, 291]) //повертає 503
+// calculateTotalPrice([412, 371, 94, 63, 176]) //повертає 1116
+
+//      TASK 11
+
+
+// const filterArray = (numbers, value) => {
+//   const filteredNumbers = [];
+
+//   numbers.forEach( (number) => {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   });
+
+
+//   console.log(filteredNumbers);
+// }
+
+// filterArray([1, 2, 3, 4, 5], 3) // повертає [4, 5]
+// filterArray([1, 2, 3, 4, 5], 4) //повертає [5]
+// filterArray([1, 2, 3, 4, 5], 5) //повертає []
+// filterArray([12, 24, 8, 41, 76], 38) //повертає [41, 76]
+// filterArray([12, 24, 8, 41, 76], 20) //повертає [24, 41, 76]
