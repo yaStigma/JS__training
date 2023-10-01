@@ -152,3 +152,62 @@
 // filterArray([1, 2, 3, 4, 5], 5) //повертає []
 // filterArray([12, 24, 8, 41, 76], 38) //повертає [41, 76]
 // filterArray([12, 24, 8, 41, 76], 20) //повертає [24, 41, 76]
+
+
+// function changeEven(numbers, value) {
+//   // Change code below this line
+//   const newNumbers = [];
+ 
+//   for (let i = 0; i < numbers.length; i += 1) {
+//     if (numbers[i] % 2 === 0) {
+//       newNumbers.push(numbers[i] + value);
+//     } else {newNumbers.push(numbers[i])
+
+//     } 
+//   }
+//     console.log(numbers);
+//     console.log(newNumbers);
+
+//   // Change code above this line
+// }
+
+
+// // function changeEven(numbers, value) {
+// //   // Change code below this line
+// //   for (let i = 0; i < numbers.length; i += 1) {
+// //     if (numbers[i] % 2 === 0) {
+// //       numbers[i] = numbers[i] + value;
+// //     }
+// //    console.log(numbers)
+// //   }  
+// //    ;
+// //   // Change code above this line
+// // }
+
+
+// changeEven([1, 2, 3, 4, 5], 10)
+// changeEven([2, 8, 3, 7, 4, 6], 10) 
+// changeEven([17, 24, 68, 31, 42], 100) 
+// changeEven([44, 13, 81, 92, 36, 54], 100)
+
+//task 14
+
+// const planets = ["Earth", "Mars", "Venus", "Jupiter"];
+
+// // const planetsLengths = planets.map(planet => planet.length());
+
+// const planetsLengths = planets.map(planet => planet.length);
+
+// console.log(planets);
+// console.log(planetsLengths);
+
+// const planets = ["Earth", "Mars", "Venus", "Jupiter"];
+
+// const planetsInUpperCase = planets.map(planet => planet.toUpperCase());
+// console.log(planetsInUpperCase); // ["EARTH", "MARS", "VENUS", "JUPITER"]
+
+// const planetsInLowerCase = planets.map(planet => planet.toLowerCase());
+// console.log(planetsInLowerCase); // ["earth", "mars", "venus", "jupiter"]
+
+// // Оригінальний масив не змінився
+// console.log(planets); // ["Earth", "Mars", "Venus", "Jupiter"]
