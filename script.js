@@ -1,98 +1,116 @@
-// const book = {
-//     title: "The Last Kingdom",
-//     author: "Bernard Cornwell",
-//     genres: ["historical prose", "adventure"],
-//     rating: 8.38,
-//   };
-  
-//   for (const key in book) {
-//     // Ключ
-//     console.log(key);
-//     // Значення властивості з таким ключем
-//     console.log(book[key]);
+// function greet(name) {
+//   console.log(`Ласкаво просимо ${name}.`);
+// }
+
+// // Функція вищого порядку
+// function registerGuest(name, callback) {
+//   console.log(`Реєструємо гостя ${name}.`);
+//   callback(name);
+// }
+
+// registerGuest("Манго", greet);
+
+
+
+
+// function registerGuest(name, callback) {
+//   console.log(`Реєструємо гостя ${name}.`);
+//   callback(name);
+// }
+
+// // Передаємо інлайн функцію greet у якості колбека
+// registerGuest("Манго", function greet(name) {
+//   console.log(`Ласкаво просимо ${name}.`);
+// });
+
+// // Передаємо інлайн функцію notify у якості колбека
+// registerGuest("Полі", function notify(name) {
+//   console.log(`Шановний(а) ${name}, ваш номер буде готовий за 30 хвилин.`);
+// });
+
+// function repeatLog(n) {
+//   for (let i = 0; i < n; i += 1) {
+//     console.log(i);
 //   }
+// }
+
+// repeatLog(5);
+
+// const numbers = [5, 10, 15, 20, 25];
+
+// // // Класичний for
+// // for (let i = 0; i < numbers.length; i += 1) {
+// //   console.log(`Індекс ${i}, значення ${numbers[i]}`);
+// // }
+
+// // Метод перебирання forEach
+// numbers.forEach(function (number, index) {
+//   console.log(`Індекс ${index}, значення ${number}`);
+// });
+
+// const students = [
+//   { name: "Манго", score: 83 },
+//   { name: "Полі", score: 59 },
+//   { name: "Аякс", score: 37 },
+//   { name: "Ківі", score: 94 },
+//   { name: "Х'юстон", score: 64 },
+// ];
+
+// const names = students.map(student => student.name);
+// console.log(names); 
 
 
-// const book = {
-//         title: "The Last Kingdom",
-//         author: "Bernard Cornwell",
-//         genres: ["historical prose", "adventure"],
-//         rating: 8.38,
-//       };
+// const total = [2, 7, 5, 14, 6].reduce((previousValue, number) => {
+//   return previousValue + number;
+// }, 0);
+
+// console.log(total);
+
+
+// Задача 6
+
+function filterArray(numbers, value) {
+  const filteredNumbers = [];
+  // Change code below this line
+
+  numbers.forEach((numbers, index) => {
     
-//       for (const key in book) {
-//         // Ключ
-//         console.log('key', key);
-//         // Значення властивості з таким ключем
-//         console.log(book.key)
-//         console.log('value', book[key]);
-//       }
+    number>value ? filteredNumbers.push(numbers[i]) : break 
+
+  });
+  
+  
 
 
-// const apartment = {
-//     descr: "Spacious apartment in the city center",
-//     rating: 4,
-//     price: 2153,
-//   };
-//    const keys = [];
-//   const values = [];
 
-//   for (const key in apartment){
-//     keys.push(key);
-//     values.push(apartment[key]);
-//     //   console.log(key) ;
-//   }
-//   console.log(keys) ;
-//   console.log(values) ;
+
+
+// function filterArray(numbers, value) {
+//   // const filteredNumbers = [];
+// this.forEach((function (number, index){
+//   filteredNumbers.push(numbers[i]));
+
+
+
+
+
+
   
   // Change code below this line
 
-  // function countTotalSalary(salaries) {
-  //   let totalSalary = 0;
-  //   // Change code below this line
-  // let salary = Object.values(salaries);
-  // for (const value of salary) {
-  // totalSalary += value;}
-  
-  
-  //   // Change code above this line
-  //   return totalSalary;
-
+  // for (let i = 0; i < numbers.length; i += 1) {
+  //   if (numbers[i] > value) {
+  //     filteredNumbers.push(numbers[i]);
+  //   }
   // }
-    // console.log(value);
-  
-    // const products = [
-    //   { name: "Radar", price: 1300, quantity: 4 },
-    //   { name: "Scanner", price: 2700, quantity: 3 },
-    //   { name: "Droid", price: 400, quantity: 7 },
-    //   { name: "Grip", price: 1200, quantity: 9 },
-    // ];
-    
-    // function calculateTotalPrice(productName) {
-    //   // Change code below this line
-    //   let totalPrice = a * b; 
-    //   let a = 0;
-    //   let b = 0;
-    // for (const product of products) {
-    //   if (productName === product.name) {
 
-    //     a = (product.price);
-    //     b = (product.quantity);
-    //       return totalPrice;
-    //   }
-     
-    // }
-   
-    
-    //   // Change code above this line
-    // }
-    // console.log(totalPrice);
+  // Change code above this line
+  console.log(filteredNumbers) ;
+}
 
-    function makeTask(data) {
-      const completed = false;
-      const category = "General";
-      const priority = "Normal";
-      // Change code below this line
-    console.log(category);
-      // Change code above this line
-    }
+
+filterArray([1, 2, 3, 4, 5], 3)
+filterArray([1, 2, 3, 4, 5], 4) 
+ filterArray([1, 2, 3, 4, 5], 5) 
+ filterArray([12, 24, 8, 41, 76], 38) 
+ filterArray([12, 24, 8, 41, 76], 20) 
