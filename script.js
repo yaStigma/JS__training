@@ -542,12 +542,31 @@ const users = [
 
 const getTotalFriendCount = users => 
     users.reduce((totalFriend, user) => {totalFriend.push(...user.friends);
+      
       return totalFriend;
     
     }, []
       
 );
-const a = getTotalFriendCount(users).length;
 
-console.log(getTotalFriendCount(users).length);
-console.log(a)
+const friends = getTotalFriendCount(users);
+
+const getFriendStats = (acc, friend) => {
+  if (!acc.hasOwnProperty(friend)) {
+    acc[friend] = 0
+      ;
+  }
+
+  acc[friend] += 1;
+
+  return acc
+
+};
+
+const countFriends = friends => friends.reduce(getFriendStats, {});
+
+const friendCount = countFriends(friends);
+
+
+
+console.log(friendCount);
