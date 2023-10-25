@@ -57,7 +57,7 @@
 // ];
 
 // const names = students.map(student => student.name);
-// console.log(names); 
+// console.log(names);
 
 
 // const total = [2, 7, 5, 14, 6].reduce((previousValue, number) => {
@@ -87,10 +87,10 @@
 
 
 // filterArray([1, 2, 3, 4, 5], 3)
-// filterArray([1, 2, 3, 4, 5], 4) 
-//  filterArray([1, 2, 3, 4, 5], 5) 
-//  filterArray([12, 24, 8, 41, 76], 38) 
-//  filterArray([12, 24, 8, 41, 76], 20) 
+// filterArray([1, 2, 3, 4, 5], 4)
+//  filterArray([1, 2, 3, 4, 5], 5)
+//  filterArray([12, 24, 8, 41, 76], 38)
+//  filterArray([12, 24, 8, 41, 76], 20)
 
 // TASK 7
 
@@ -163,7 +163,7 @@
 //       newNumbers.push(numbers[i] + value);
 //     } else {newNumbers.push(numbers[i])
 
-//     } 
+//     }
 //   }
 //     console.log(numbers);
 //     console.log(newNumbers);
@@ -179,15 +179,15 @@
 // //       numbers[i] = numbers[i] + value;
 // //     }
 // //    console.log(numbers)
-// //   }  
+// //   }
 // //    ;
 // //   // Change code above this line
 // // }
 
 
 // changeEven([1, 2, 3, 4, 5], 10)
-// changeEven([2, 8, 3, 7, 4, 6], 10) 
-// changeEven([17, 24, 68, 31, 42], 100) 
+// changeEven([2, 8, 3, 7, 4, 6], 10)
+// changeEven([17, 24, 68, 31, 42], 100)
 // changeEven([44, 13, 81, 92, 36, 54], 100)
 
 //task 14
@@ -212,7 +212,7 @@
 // // Оригінальний масив не змінився
 // console.log(planets); // ["Earth", "Mars", "Venus", "Jupiter"]
 
-// 
+//
 
 // task 19
 
@@ -466,71 +466,71 @@
   
 
 
-const users = [
-    {
-      name: "Moore Hensley",
-      email: "moorehensley@indexia.com",
-      eyeColor: "blue",
-      friends: ["Sharron Pace"],
-      isActive: false,
-      balance: 2811,
-      gender: "male"
-    },
-    {
-      name: "Sharlene Bush",
-      email: "sharlenebush@tubesys.com",
-      eyeColor: "blue",
-      friends: ["Briana Decker", "Sharron Pace"],
-      isActive: true,
-      balance: 3821,
-      gender: "female"
-    },
-    {
-      name: "Ross Vazquez",
-      email: "rossvazquez@xinware.com",
-      eyeColor: "green",
-      friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
-      isActive: false,
-      balance: 3793,
-      gender: "male"
-    },
-    {
-      name: "Elma Head",
-      email: "elmahead@omatom.com",
-      eyeColor: "green",
-      friends: ["Goldie Gentry", "Aisha Tran"],
-      isActive: true,
-      balance: 2278,
-      gender: "female"
-    },
-    {
-      name: "Carey Barr",
-      email: "careybarr@nurali.com",
-      eyeColor: "blue",
-      friends: ["Jordan Sampson", "Eddie Strong"],
-      isActive: true,
-      balance: 3951,
-      gender: "male"
-    },
-    {
-      name: "Blackburn Dotson",
-      email: "blackburndotson@furnigeer.com",
-      eyeColor: "brown",
-      friends: ["Jacklyn Lucas", "Linda Chapman"],
-      isActive: false,
-      balance: 1498,
-      gender: "male"
-    },
-    {
-      name: "Sheree Anthony",
-      email: "shereeanthony@kog.com",
-      eyeColor: "brown",
-      friends: ["Goldie Gentry", "Briana Decker"],
-      isActive: true,
-      balance: 2764,
-      gender: "female"
-    }
-  ]
+// const users = [
+//     {
+//       name: "Moore Hensley",
+//       email: "moorehensley@indexia.com",
+//       eyeColor: "blue",
+//       friends: ["Sharron Pace"],
+//       isActive: false,
+//       balance: 2811,
+//       gender: "male"
+//     },
+//     {
+//       name: "Sharlene Bush",
+//       email: "sharlenebush@tubesys.com",
+//       eyeColor: "blue",
+//       friends: ["Briana Decker", "Sharron Pace"],
+//       isActive: true,
+//       balance: 3821,
+//       gender: "female"
+//     },
+//     {
+//       name: "Ross Vazquez",
+//       email: "rossvazquez@xinware.com",
+//       eyeColor: "green",
+//       friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//       isActive: false,
+//       balance: 3793,
+//       gender: "male"
+//     },
+//     {
+//       name: "Elma Head",
+//       email: "elmahead@omatom.com",
+//       eyeColor: "green",
+//       friends: ["Goldie Gentry", "Aisha Tran"],
+//       isActive: true,
+//       balance: 2278,
+//       gender: "female"
+//     },
+//     {
+//       name: "Carey Barr",
+//       email: "careybarr@nurali.com",
+//       eyeColor: "blue",
+//       friends: ["Jordan Sampson", "Eddie Strong"],
+//       isActive: true,
+//       balance: 3951,
+//       gender: "male"
+//     },
+//     {
+//       name: "Blackburn Dotson",
+//       email: "blackburndotson@furnigeer.com",
+//       eyeColor: "brown",
+//       friends: ["Jacklyn Lucas", "Linda Chapman"],
+//       isActive: false,
+//       balance: 1498,
+//       gender: "male"
+//     },
+//     {
+//       name: "Sheree Anthony",
+//       email: "shereeanthony@kog.com",
+//       eyeColor: "brown",
+//       friends: ["Goldie Gentry", "Briana Decker"],
+//       isActive: true,
+//       balance: 2764,
+//       gender: "female"
+//     }
+//   ]
 
 //   const calculateTotalBalance = users => {
 //    const a = users.reduce((totalBalance, user) => totalBalance + user.balance, 0);
@@ -539,34 +539,82 @@ const users = [
   
 // console.log(calculateTotalBalance(users));
 
+// task 37
 
-const getTotalFriendCount = users => 
-    users.reduce((totalFriend, user) => {totalFriend.push(...user.friends);
+// const getTotalFriendCount = users =>
+//     users.reduce((totalFriend, user) => {totalFriend.push(...user.friends);
       
-      return totalFriend;
+//       return totalFriend;
     
-    }, []
+//     }, []
       
-);
+// );
 
-const friends = getTotalFriendCount(users);
+// const friends = getTotalFriendCount(users);
 
-const getFriendStats = (acc, friend) => {
-  if (!acc.hasOwnProperty(friend)) {
-    acc[friend] = 0
-      ;
-  }
+// const getFriendStats = (acc, friend) => {
+//   if (!acc.hasOwnProperty(friend)) {
+//     acc[friend] = 0
+//       ;
+//   }
 
-  acc[friend] += 1;
+//   acc[friend] += 1;
 
-  return acc
+//   return acc
 
-};
+// };
 
-const countFriends = friends => friends.reduce(getFriendStats, {});
+// const countFriends = friends => friends.reduce(getFriendStats, {});
 
-const friendCount = countFriends(friends);
+// const friendCount = countFriends(friends);
 
 
 
-console.log(friendCount);
+// console.log(friendCount);
+
+// gpt ------>
+
+// const getTotalFriendCount = users => {
+//   return users.reduce((totalFriends, user) => totalFriends + user.friends.length, 0);
+// };
+
+// console.log(getTotalFriendCount(users));
+
+
+// task 45
+
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//   {
+//     title: "The Dreams in the Witch House",
+//     author: "Howard Lovecraft",
+//     rating: 8.67,
+//   },
+// ];
+// const MIN_BOOK_RATING = 8;
+// // Change code below this line
+
+// const names = books
+//   .filter(books => books.rating >= MIN_BOOK_RATING)
+//   .map(books => books.author)
+// .sort((a, b) => a.localeCompare(b));
+
+// console.log(names);
+
+// task 47
+
